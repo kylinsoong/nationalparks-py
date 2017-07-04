@@ -32,7 +32,7 @@ api.add_resource(HealthCheck, '/ws/healthz/')
 class Info(Resource):
     description = {
         'id': 'nationalparks-py',
-        'displayName': 'World National Parks (KSOONG)',
+        'displayName': 'World National Parks (Red Hat OCP)',
         'type': 'cluster',
         'center': {'latitude': '47.039304', 'longitude': '14.505178'},
         'zoom': 4
